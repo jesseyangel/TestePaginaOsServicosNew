@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>O&S Serviços LTDA – Soluções em Limpeza</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome (ícones) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ══ TOP BAR ══════════════════════════════ -->
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-left">
+        <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+        <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+      </div>
+      <div class="topbar-right">
+        <span><i class="fas fa-map-marker-alt"></i> R. Álvaro Silva, 105 – Vila Siqueira, São Paulo – SP, 02723-020</span>
+        <a href="mailto:oesservicos@yahoo.com.br"><i class="fas fa-envelope"></i> oesservicos@yahoo.com.br</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ NAVBAR ════════════════════════════════ -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="nav-logo">O<span>&</span>S Serviços</div>
+
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre Nós</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#processo">Como Funciona</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <div class="nav-phone">
+          <i class="fas fa-phone-alt"></i>
+          <span>55 11 979 561 723</span>
+        </div>
+        <a href="https://wa.me/5511979561723" class="btn btn-primary" target="_blank">
+          <i class="fab fa-whatsapp"></i> Chat WhatsApp
+        </a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Menu mobile -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#sobre">Sobre Nós</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#processo">Como Funciona</a>
+      <a href="#faq">FAQ</a>
+      <a href="https://wa.me/5511979561723" target="_blank" style="color:var(--red); font-weight:600;">
+        <i class="fab fa-whatsapp"></i> Chat WhatsApp
+      </a>
+    </div>
+  </nav>
+
+  <!-- ══ HERO ══════════════════════════════════ -->
+  <section class="hero">
+    <img
+      class="hero-img"
+      src="assets/Imagens/Banner1.png"
+      alt="Equipe O&S Serviços"
+    />
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="container">
+        <div class="hero-text">
+          <div class="tag" style="color:rgba(255,255,255,.7)">Nossas Soluções</div>
+          <h1>Uma solução de limpeza O&S Serviços</h1>
+          <p>Soluções eficientes e de confiança para empresas que valorizam ambientes bem cuidados.</p>
+          <div class="hero-badges">
+            <span class="badge"><i class="fas fa-star"></i> Empresa top classificada</span>
+            <span class="badge"><i class="fas fa-shield-alt"></i> 14+ anos de mercado</span>
+            <span class="badge"><i class="fas fa-users"></i> 43+ profissionais</span>
+          </div>
+        </div>
+
+        <div class="hero-form-card reveal">
+          <h3>Vamos <span>Estimar</span>?</h3>
+          <div class="form-row">
+            <input type="email" placeholder="Seu e-mail *" />
+            <select>
+              <option value="" disabled selected>Selecione um serviço</option>
+              <option>Limpeza Comercial</option>
+              <option>Limpeza Pós-Obra</option>
+              <option>Tratamento de Pisos</option>
+              <option>Jardinagem e Paisagismo</option>
+              <option>Outro</option>
+            </select>
+            <a href="https://wa.me/5511979561723" class="btn btn-primary" target="_blank">
+              <i class="fab fa-whatsapp"></i> Enviar Agora
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ CLIENTES ══════════════════════════════ -->
+<div class="clients">
+  <div class="container">
+    <div class="clients-inner">
+      <img src="assets/Logos/logo_orange.svg"  alt="Mundo Apto"        class="client-logo" />
+      <img src="assets/Logos/logo-idea.png"    alt="Idea! Zarvos"  class="client-logo" />
+      <img src="assets/Logos/logo-makeup.png"  alt="Makeup"        class="client-logo" />
+      <img src="assets/Logos/logo-theart.png"  alt="The Art Salon" class="client-logo" />
+      <img src="assets/Logos/logo-zkf.png"     alt="ZKF"           class="client-logo" />
+      <img src="assets/Logos/logo-ipanema.png"     alt="Barão Ipanema"           class="client-logo" />
+    </div>
+  </div>
+</div>
+
+  <!-- ══ SOBRE ══════════════════════════════════ -->
+  <section class="about" id="sobre">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-img-wrap reveal">
+          <img src="assets/Imagens/feature_img.png" alt="Profissional O&S Serviços" />
+          <div class="about-img-badge">
+            <strong>14+</strong>
+            <span>Anos no mercado</span>
+          </div>
+        </div>
+        <div class="about-content reveal">
+          <div class="tag">O&S Serviços LTDA</div>
+          <h2>Sobre a<br>O&S Serviços</h2>
+          <p> A O&S Serviços oferece soluções práticas, eficientes e confiáveis para empresas que valorizam ambientes limpos, organizados e bem cuidados.<br>
+            <br>Trabalhamos com atendimento personalizado, agilidade e alto padrão de qualidade, garantindo resultados que contribuem diretamente para a <br>
+            produtividade, organização e bem-estar dos ambientes corporativos. Nosso compromisso é entregar excelência, segurança e praticidade em cada detalhe.</p>
+          <ul class="about-bullets">
+            <li><i class="fas fa-check"></i> Equipes treinadas e uniformizadas</li>
+            <li><i class="fas fa-check"></i> Atendimento sob medida para sua necessidade</li>
+            <li><i class="fas fa-check"></i> Equipamentos próprios e alta produtividade</li>
+            <li><i class="fas fa-check"></i> Atendimento personalizado para cada cliente</li>
+          </ul>
+          <div class="about-stats">
+            <div class="stat">
+              <strong>58+</strong>
+              <span>Empresas Atendidas</span>
+            </div>
+            <div class="stat">
+              <strong>43+</strong>
+              <span>Profissionais Ativos</span>
+            </div>
+            <div class="stat">
+              <strong>4+</strong>
+              <span>Anos No Mercado</span>
+            </div>
+          </div>
+          <p style="margin-top:1.5rem; font-size:.88rem; color:var(--gray);">
+            <strong style="color:var(--dark);">Carlos Martinell</strong> — Ceo & Fundador
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ SERVIÇOS ═══════════════════════════════ -->
+  <section class="services" id="servicos">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="tag">O&S Serviços</div>
+        <h2>Nossos Serviços<br>Para Os Nossos Clientes</h2>
+        <p>Soluções completas de limpeza, manutenção e jardinagem para o seu negócio.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fas fa-broom"></i></div>
+          <h3>Tratamento e Conservação de Pisos</h3>
+          <p>Deixe seus pisos renovados e protegidos.</p>
+          <ul class="service-bullets">
+            <li>Lavagem, enceramento e polimento</li>
+            <li>Tratamento para porcelanato, granito, mármore</li>
+            <li>Preservação da estética e durabilidade</li>
+          </ul>
+          <a href="#" class="service-link">Saber mais <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fas fa-building"></i></div>
+          <h3>Limpeza Comercial</h3>
+          <p>Soluções completas para escritórios, clínicas, lojas e empresas.</p>
+          <ul class="service-bullets">
+            <li>Higienização de ambientes</li>
+            <li>Limpeza de vidros e fachadas</li>
+            <li>Coleta e descarte correto de resíduos</li>
+          </ul>
+          <a href="#" class="service-link">Saber mais <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fas fa-hard-hat"></i></div>
+          <h3>Limpeza Pós-Obra</h3>
+          <p>Deixe seu ambiente pronto após reformas e construções.</p>
+          <ul class="service-bullets">
+            <li>Remoção de resíduos de obra</li>
+            <li>Limpeza pesada de pisos, vidros e superfícies</li>
+            <li>Detalhamento final do ambiente</li>
+          </ul>
+          <a href="#" class="service-link">Saber mais <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fas fa-recycle"></i></div>
+          <h3>Sustentabilidade Ambiental</h3>
+          <p>Métodos e produtos que minimizam impactos ao meio ambiente.</p>
+          <ul class="service-bullets">
+            <li>Produtos biodegradáveis</li>
+            <li>Descarte responsável de resíduos</li>
+            <li>Práticas sustentáveis de limpeza</li>
+          </ul>
+          <a href="#" class="service-link">Saber mais <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fas fa-cogs"></i></div>
+          <h3>Tecnologia e Inovação</h3>
+          <p>Uso de equipamentos modernos para maior produtividade e eficiência.</p>
+          <ul class="service-bullets">
+            <li>Equipamentos de alta tecnologia</li>
+            <li>Processos otimizados</li>
+            <li>Resultados superiores</li>
+          </ul>
+          <a href="#" class="service-link">Saber mais <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ GALERIA ════════════════════════════════ -->
+  <section class="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="tag">Nossos Projetos</div>
+        <h2>Resultados que Falam por Si</h2>
+      </div>
+      <div class="gallery-grid reveal">
+        <div class="gallery-item">
+          <img src="assets/Places/img_01.jpg" alt="Idea! Zarvos" />
+          <div class="gallery-overlay">
+            <p>Idea! Zarvos</p>
+            <span>São Paulo, Brasil</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/Places/img_04.jpg" alt="ZKF Engenharia" />
+          <div class="gallery-overlay">
+            <p>ZKF Engenharia</p>
+            <span>São Paulo, Brasil</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/Places/img_03.jpg" alt="MOS" />
+          <div class="gallery-overlay">
+            <p>MOS</p>
+            <span>São Paulo, Brasil</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ PROCESSO ═══════════════════════════════ -->
+  <section class="process" id="processo">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="tag">O&S Serviços</div>
+        <h2>Nosso sólido processo de trabalho</h2>
+        <p>Transparência e eficiência do primeiro contato até a entrega final.</p>
+      </div>
+      <div class="process-steps">
+        <div class="process-step reveal">
+          <div class="step-number">01</div>
+          <h3>Agende seu serviço</h3>
+          <p>Entre em contato pelo WhatsApp ou formulário e agende uma visita sem compromisso.</p>
+        </div>
+        <div class="process-step reveal">
+          <div class="step-number">02</div>
+          <h3>Realizamos a visita técnica</h3>
+          <p>Nossa equipe avalia o espaço e identifica as melhores soluções para o seu ambiente.</p>
+        </div>
+        <div class="process-step reveal">
+          <div class="step-number">03</div>
+          <h3>Faremos o orçamento</h3>
+          <p>Você recebe um orçamento detalhado, claro e sem surpresas. Aprovando, começamos!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ POR QUE NÓS ════════════════════════════ -->
+  <section class="why">
+    <div class="container">
+      <div class="why-grid">
+        <div class="why-img reveal">
+          <img src="assets/Imagens/OS.png" alt="Por que escolher a O&S" />
+        </div>
+        <div class="reveal">
+          <div class="tag">O&S Serviços</div>
+          <h2 style="font-family:var(--font-head); font-size:clamp(1.8rem,3vw,2.4rem); font-weight:700; line-height:1.2; margin-bottom:2rem;">
+            Por que escolher a<br>O&S Serviços?
+          </h2>
+          <div class="why-features">
+            <div class="why-feature">
+              <div class="why-feature-icon"><i class="fas fa-medal"></i></div>
+              <div>
+                <h4>Compromisso com qualidade, segurança e eficiência</h4>
+                <p>Nosso foco é oferecer soluções de limpeza e manutenção que realmente fazem a diferença no dia a dia das empresas. Atuamos há mais de 14 anos no mercado.</p>
+              </div>
+            </div>
+            <div class="why-feature">
+              <div class="why-feature-icon"><i class="fas fa-clock"></i></div>
+              <div>
+                <h4>Economia de Tempo e Produtividade</h4>
+                <p>Enquanto você cuida do seu negócio, nós cuidamos da limpeza e organização dele.</p>
+              </div>
+            </div>
+            <div class="why-feature">
+              <div class="why-feature-icon"><i class="fas fa-handshake"></i></div>
+              <div>
+                <h4>Flexibilidade de Contratos e Serviços Avulsos</h4>
+                <p>Atendemos demandas pontuais ou contratos mensais, conforme a sua necessidade.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ DEPOIMENTOS ════════════════════════════ -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="tag">Depoimentos</div>
+        <h2>O que nossos clientes dizem</h2>
+      </div>
+      <div class="testimonial-slider reveal">
+        <div class="testimonial-track" id="testimonialTrack">
+
+          <div class="testimonial-slide">
+            <img class="testimonial-avatar" src="images/testimonial-1.jpg" alt="João Mendes" />
+            <p class="testimonial-text">"Com a O&S, conseguimos manter nosso ambiente de trabalho sempre limpo e organizado. Equipe pontual, atenciosa e muito profissional. Recomendo de olhos fechados!"</p>
+            <div class="testimonial-author">
+              <strong>João Mendes</strong>
+              <span>Gerente Administrativo</span>
+            </div>
+          </div>
+
+          <div class="testimonial-slide">
+            <img class="testimonial-avatar" src="images/testimonial-2.jpg" alt="Ana Paula" />
+            <p class="testimonial-text">"Serviço impecável! Contratamos para a limpeza pós-obra e ficamos surpresos com a qualidade e rapidez. Com certeza voltaremos a contratar."</p>
+            <div class="testimonial-author">
+              <strong>Ana Paula Ferreira</strong>
+              <span>Diretora – Idea! Zarvos</span>
+            </div>
+          </div>
+
+          <div class="testimonial-slide">
+            <img class="testimonial-avatar" src="images/testimonial-3.jpg" alt="Carlos Silva" />
+            <p class="testimonial-text">"A equipe da O&S é extremamente profissional. Resolveram o tratamento dos nossos pisos com excelência. Ambiente completamente renovado!"</p>
+            <div class="testimonial-author">
+              <strong>Carlos Silva</strong>
+              <span>Gerente – ZKF Lacunas</span>
+            </div>
+          </div>
+
+        </div>
+        <div class="slider-arrows">
+          <button class="arrow-btn" id="prevBtn" aria-label="Anterior"><i class="fas fa-arrow-left"></i></button>
+          <button class="arrow-btn" id="nextBtn" aria-label="Próximo"><i class="fas fa-arrow-right"></i></button>
+        </div>
+        <div class="slider-dots" id="sliderDots">
+          <button class="dot active" data-index="0"></button>
+          <button class="dot" data-index="1"></button>
+          <button class="dot" data-index="2"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ FAQ ════════════════════════════════════ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="faq-grid">
+        <div class="faq-img reveal">
+          <img src="assets/Imagens/Faq.png" alt="FAQ" />
+        </div>
+        <div>
+          <div class="tag reveal">O&S Serviços</div>
+          <h2 class="reveal" style="font-family:var(--font-head); font-size:clamp(1.8rem,3vw,2.4rem); font-weight:700; margin-bottom:1.5rem;">Perguntas Frequentes (FAQ)</h2>
+          <div class="faq-list">
+
+            <div class="faq-item open reveal">
+              <div class="faq-question">
+                Quais tipos de limpeza a O&S oferece?
+                <span class="faq-icon"><i class="fas fa-plus"></i></span>
+              </div>
+              <div class="faq-answer">
+                Oferecemos limpeza comercial, pós-obra, manutenção de condomínios, fachadas, vidros, sanitização, tratamento de pisos e jardinagem.
+              </div>
+            </div>
+
+            <div class="faq-item reveal">
+              <div class="faq-question">
+                Os serviços podem ser contratados pontualmente ou com recorrência?
+                <span class="faq-icon"><i class="fas fa-plus"></i></span>
+              </div>
+              <div class="faq-answer">
+                Sim! Atendemos tanto demandas pontuais quanto contratos mensais recorrentes. A modalidade é escolhida conforme a necessidade do cliente.
+              </div>
+            </div>
+
+            <div class="faq-item reveal">
+              <div class="faq-question">
+                A O&S fornece os materiais e equipamentos de limpeza?
+                <span class="faq-icon"><i class="fas fa-plus"></i></span>
+              </div>
+              <div class="faq-answer">
+                Sim, todos os equipamentos e produtos de limpeza são fornecidos pela nossa empresa. Utilizamos apenas produtos de alta qualidade e ambientalmente responsáveis.
+              </div>
+            </div>
+
+            <div class="faq-item reveal">
+              <div class="faq-question">
+                Quanto tempo leva para receber um orçamento?
+                <span class="faq-icon"><i class="fas fa-plus"></i></span>
+              </div>
+              <div class="faq-answer">
+                Após a visita técnica, o orçamento é enviado em até 24 horas. Para serviços simples, o retorno pode ser ainda mais rápido.
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ RODAPÉ – REDES SOCIAIS ═════════════════ -->
+  <div class="footer-social">
+    <div class="social-bar">
+      <a href="#" class="social-link"><i class="fab fa-facebook-f"></i> Facebook</a>
+      <a href="#" class="social-link"><i class="fab fa-twitter"></i> Twitter</a>
+      <a href="#" class="social-link"><i class="fab fa-instagram"></i> Instagram</a>
+      <a href="#" class="social-link"><i class="fab fa-youtube"></i> Youtube</a>
+      <a href="#" class="social-link"><i class="fab fa-pinterest-p"></i> Pinterest</a>
+    </div>
+  </div>
+
+  <!-- ══ RODAPÉ PRINCIPAL ═══════════════════════ -->
+  <footer class="footer-main">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">O&S Serviços</div>
+          <p>Há mais de 14 anos oferecendo soluções em limpeza e manutenção com qualidade, eficiência e compromisso com o cliente.</p>
+          <ul class="footer-info" style="margin-top:1.25rem;">
+            <li><i class="fas fa-map-marker-alt"></i> R. Álvaro Silva, 105 – Vila Siqueira, São Paulo – SP, 02723-020</li>
+            <li><i class="fas fa-phone-alt"></i> 55 11 97956-1723</li>
+            <li><i class="fas fa-envelope"></i> oesservicos@yahoo.com.br</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Serviços</h4>
+          <ul>
+            <li><a href="#">Limpeza Comercial</a></li>
+            <li><a href="#">Limpeza Pós-Obra</a></li>
+            <li><a href="#">Tratamento de Pisos</a></li>
+            <li><a href="#">Jardinagem</a></li>
+            <li><a href="#">Sustentabilidade</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Links Rápidos</h4>
+          <ul>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#processo">Como Funciona</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#">Termos e condições</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© Copyright ©2025 <strong>O&S Serviços</strong>. Todos os Direitos Reservados.</span>
+        <div style="display:flex; gap:1.5rem;">
+          <a href="#">Termos e condições</a>
+          <a href="#">Política de Privacidade</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══ WHATSAPP FLUTUANTE ══════════════════════ -->
+  <a href="https://wa.me/5511979561723" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
